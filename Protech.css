@@ -1,0 +1,67 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.navbar img, svg {
+    vertical-align: middle;
+    margin-left: 67px;
+    width: 129px;
+    height: 40px;
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: end;
+}
+.navbar .btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 3px solid transparent;
+    padding: 0.375rem 1.75rem;
+    font-size: 1rem;
+    border-radius: 8.25rem;
+    border-color: #77CBE2;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.navbar .btn-group, .btn-group-vertical {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+.navbar .btn-secondary {
+    color: #77CBE2;
+    background-color: #fff;    
+}
+.top-navbar .Icons{
+    background-color: #2A3F44;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+.top-navbar .Icons .fa {
+    color: #93A4A3;
+    margin-right: 15px;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+}
+.navbar .bg-light {
+    background-color: #fff!important;
+}
